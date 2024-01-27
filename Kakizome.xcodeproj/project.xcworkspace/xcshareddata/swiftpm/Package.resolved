@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swifty-creatives",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yukiny0811/swifty-creatives",
+      "state" : {
+        "revision" : "177409bfa056cf45edc7d23fdcdbceea0f351411",
+        "version" : "1.13.2"
+      }
+    }
+  ],
+  "version" : 2
+}

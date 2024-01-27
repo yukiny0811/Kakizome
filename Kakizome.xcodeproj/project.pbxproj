@@ -11,6 +11,7 @@
 		56439B0E2B64B892003BDCB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56439B0D2B64B892003BDCB3 /* ContentView.swift */; };
 		56439B102B64B893003BDCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56439B0F2B64B893003BDCB3 /* Assets.xcassets */; };
 		56439B132B64B893003BDCB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56439B122B64B893003BDCB3 /* Preview Assets.xcassets */; };
+		56439B3E2B64BC44003BDCB3 /* SwiftyCreatives in Frameworks */ = {isa = PBXBuildFile; productRef = 56439B3D2B64BC44003BDCB3 /* SwiftyCreatives */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56439B3E2B64BC44003BDCB3 /* SwiftyCreatives in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = Kakizome;
+			packageProductDependencies = (
+				56439B3D2B64BC44003BDCB3 /* SwiftyCreatives */,
+			);
 			productName = Kakizome;
 			productReference = 56439B082B64B892003BDCB3 /* Kakizome.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 56439AFF2B64B892003BDCB3;
+			packageReferences = (
+				56439B3C2B64BC44003BDCB3 /* XCRemoteSwiftPackageReference "swifty-creatives" */,
+			);
 			productRefGroup = 56439B092B64B892003BDCB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		56439B3C2B64BC44003BDCB3 /* XCRemoteSwiftPackageReference "swifty-creatives" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yukiny0811/swifty-creatives";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.13.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		56439B3D2B64BC44003BDCB3 /* SwiftyCreatives */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56439B3C2B64BC44003BDCB3 /* XCRemoteSwiftPackageReference "swifty-creatives" */;
+			productName = SwiftyCreatives;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 56439B002B64B892003BDCB3 /* Project object */;
 }
